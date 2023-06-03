@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+}
+header {
+    width: 80%;
+    margin: 50px auto;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.form {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.form-row{
+    padding-bottom: 20px ;
+}
+
+.form-label {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+}
+.form-input {
+    width: 50%;
+    height: 25px;
+}
+
+.form-btn{
+    padding-right: 4%;
+}
+
+.form-btn .btn{
+    padding: 4px;
+    float: right;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.form-btn .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.form-row .form-check{
+    padding-left: 30%;
+    color: red;
+}
+

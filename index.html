@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Thêm dữ liệu vào bảng</title>
+</head>
+<body onload="loadData()">
+    <header>
+        <table id="myTable">
+            <tr>
+                <th>STT</th>
+                <th>Tên VXL</th>
+                <th>Hãng sx</th>
+                <th>Ngày ra mắt</th>
+                <th>Giá (vnđ)</th>
+            </tr>
+        </table>
+        <br>
+    </header>
+
+    <form action="#" method="post" class="form">
+        <div class="form-row">
+            <label class="form-label" for="txtTen">Tên VXL:</label>
+            <input class="form-input" type="text" id="txtTen">
+            <div class="form-check" id="checkTen"></div>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="txtHang">Hãng</label>
+            <input class="form-input" type="text" id="txtHang">
+            <div class="form-check" id="checkHang"></div>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="dNgaySX">Ngày ra mắt</label>
+            <input class="form-input" type="date" id="dNgaySX">
+            <div class="form-check" id="checkNgaySX"></div>
+        </div>
+
+        <div class="form-row">
+            <label class="form-label" for="fGia">Gia</label>
+            <input class="form-input" type="text" id="fGia">
+            <div class="form-check" id="checkGia"></div>
+        </div>
+
+        <div class="form-btn">
+            <button type="button" class="btn" id="btnHuy" onclick="huy()">Huỷ</button>
+            <button type="button" class="btn" id="btnThem" onclick="checkThongTin()">Thêm</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
